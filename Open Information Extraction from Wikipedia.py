@@ -144,7 +144,7 @@ def extract_dependencies_triplets(nlp, text):
 
 
 def extract_llm_triplets(page_name):
-    genai.configure(api_key='AIzaSyDKV8hJkVf-BYWlX6L9Mw8l8Z9Skq-8GUM')
+    genai.configure(api_key='***')
     model = genai.GenerativeModel('gemini-pro')
 
     prompt = f"""
