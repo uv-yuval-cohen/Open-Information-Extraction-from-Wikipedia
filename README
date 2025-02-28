@@ -1,0 +1,13 @@
+This submission includes python scripts implementing three triplet extractors:
+POS-based extractor: Identifies triplets based on part-of-speech tags.
+Dependency-based extractor: Utilizes dependency trees for triplet extraction.
+LLM-based extractor: Uses a Large Language Model (Gemini-pro)
+via API calls for triplet generation.
+The main() function runs all extractors on three Wikipedia pages: Donald Trump,
+Ruth Bader Ginsburg, and J.K. Rowling, and prints the results.
+
+Approach:
+The code employs Spacy for POS tagging and dependency parsing and the Wikipedia API to fetch text.
+Extractors were evaluated for precision and recall using manually verified triplets.
+The LLM extractor uses a structured prompt to generate results and is compared against the classic methods.
+Results can be reproduced by running the code file.
